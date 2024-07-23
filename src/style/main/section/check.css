@@ -1,0 +1,102 @@
+.section-check {
+    margin-top: 121px;
+}
+.check__heading {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: #353637;
+    margin-bottom: 16px;
+}
+.check__text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 452px;
+    font-size: 18px;
+    margin-bottom: 46px;
+    color: #959595;
+}
+.check__form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.check__form_img {
+    display: flex;
+    align-items: end;
+    height: 523px;
+    background-color: #b1bed0;
+    border-radius: 8px 0px 0px 8px;
+    margin-bottom: 118px;
+}
+.check__form_items{
+    position: absolute;
+    transform: translateY(-77px);
+    margin-left: 333px;
+}
+.check__form_data{
+    display: flex;
+    flex-direction: column;
+    height: 523px;
+    background-color: #F6FCFA;
+    border-radius: 0px 8px 8px 0px;
+    padding-top: 77px;
+    padding-left: 68px;
+    padding-right: 68px;
+
+}
+.check__form_data label{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.check__form_data input{
+    width: 339px;
+    height: 50px;
+    background-color: inherit;
+    padding-left: 14px;
+    font-size: 16px;
+    border: 1px solid #ABABAB;
+    border-radius: 2px;
+    margin-bottom: 29px;
+}
+.check__form_data select{
+    width: 339px;
+    height: 50px;
+    background-color: inherit;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ABABAB;
+    color: #A4A4A4;
+    border-radius: 2px;
+    margin-bottom: 29px;
+}
+.check__form_input-icon{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 300px;
+}
+.check__form_input-icon_two{
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 300px;
+}
+.check__form_btn{
+    width: 339px;
+    height: 50px;
+    border: 2px solid #596B86;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: inherit;
+    border-radius: 2px;
+    transition: color 0.3s ease;
+}
+.check__form_btn:hover{
+    background-color: #596B86;
+    color: #fff;
+}
+.check__form_btn:active{
+    opacity: 0.7;
+}

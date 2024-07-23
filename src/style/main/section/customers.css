@@ -1,0 +1,107 @@
+.customers {
+    margin-bottom: 124px;
+}
+
+.customers__heading {
+    font-size: 40px;
+    font-weight: 400;
+    color: #353637;
+    margin-bottom: 13px;
+}
+.customers__text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #959595;
+    margin-bottom: 21px;
+}
+.customers__card {
+    display: flex;
+    gap: 30px;
+    cursor: grab;
+} 
+.customers__card:active{
+    cursor: grabbing;
+}
+.card_one {
+    display: flex;
+    flex-direction: column;
+    cursor: grab;
+    width: 350px;
+    height: 389px;
+    background-color: #f6fcfa;
+    border-radius: 6px;
+    padding-left: 37px;
+    padding-top: 50px;
+    padding-right: 37px;
+}
+
+.card_one img {
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+.card_one-name {
+    font-family: "Work Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 6px;
+}
+.card_one-job {
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #606772;
+    margin-bottom: 27px;
+}
+.card_one-text {
+    font-family: "Merriweather", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #6d7589;
+    letter-spacing: 1px;
+}
+.card_two {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 389px;
+    background-color: rgba(113, 136, 170, 0.55);
+    color: #fff;
+    border-radius: 6px 0px 6px 6px;
+    padding-left: 37px;
+    padding-top: 50px;
+    padding-right: 37px;
+    margin-bottom: 100px;
+}
+
+.card_two img {
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+.text-color {
+    color: #fff !important;
+}
+.card_two-item {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55px;
+    border-top-left-radius: 6px;
+    transform: translateY(-50px);
+    margin-left: 259px;
+}
+.card_two-item--scaled {
+    position: absolute;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 147px;
+    transform: scale(2.7);
+    margin-top: 238px;
+    margin-left: 9px;
+}

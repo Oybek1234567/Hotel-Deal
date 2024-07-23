@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:focus{
+    outline: 2px dashed #597193;
+}
+button {
+    cursor: pointer;
+}
+button:focus{
+    outline: 2px dashed #597193;
+    outline-offset: 2px;
+}
+.container{
+    width: 100%;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin: 0 auto;
+}
+
+.open{
+    font-family: "Open Sans", sans-serif;
+}
+.average{
+    font-family: "Average Sans", sans-serif;
+}
+.work{
+    font-family: "Work Sans", sans-serif;
+}
